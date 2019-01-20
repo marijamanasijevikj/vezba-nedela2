@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#div-desno{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.slika{
+    width: 33.3%;
+    height: 54%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size:cover;
+}
+.sl1{
+background-image: url("product_01.png");
+}
+.sl2{
+    background-image: url("product_02.png");
+}
+.sl3{
+    background-image: url("product_03.png");
+}
+
+.culpa p, .culpa hr {
+    font-family: sans-serif;
+    font-weight: 600;
+    color: transparent;
+    border-style: hidden;
+}
+.dng {
+    /* font-family: sans-serif; */
+    font-weight: 600;
+    /* color: transparent; */
+    border-style: hidden;
+    visibility: hidden;
+
+    /* display: none; */
+
+}
+.sl1:hover, .sl2:hover, .sl3:hover,{
+    background-color: rgba(0, 0, 0, 0.5);
+  
+}
+.culpa button:hover {
+    display: block;
+    /* z-index: 10; */
+}
+.sl1:hover .culpa p, .sl2:hover .culpa p, .sl3:hover .culpa p {
+    color: gray;
+    font-size: 13px;
+    
+}
+
+.sl1:hover #hr1, .sl1:hover #hr2, .sl2:hover #hr1, .sl2:hover #hr2, .sl3:hover #hr1, .sl3:hover #hr2 .dng:hover {
+    border: 0.5px solid lightgray;
+    visibility: visible;
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+
+.slika{
+    width: 50%;
+    height: 50%;
+}
+#div-desno{
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+}
+@media only screen and (max-width: 425px){
+.slika{
+    width: 100%;
+    height: 73.5%;
+}
