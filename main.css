@@ -1,0 +1,70 @@
+.nav1 {
+    background-color: rgb(167, 164, 164);
+    
+}
+.nav1 li a {
+    color: white;
+}
+.brein img {
+    height: 30px;
+    margin-top: -5px;
+}
+.navhov li a:hover {
+    background-color: gray!important;
+}
+#nav2 {
+    min-height: 0px!important;
+    margin-bottom: 0px!important;
+    height: 40px!important;
+    background-color: gray;
+}
+.navbr {
+    color: white;
+}
+.navbr li a {
+    color: white!important;
+}
+.singupr {
+    height: 100vh;
+    background-color:  rgba(94, 26, 158, 0.616); 
+
+}
+.bgsing img {
+    width: 100%;
+    height: 100vh;
+    margin-left: -15px;
+}
+.forms input {
+    border:none;
+    box-shadow: none;
+    border-bottom: 1px solid lightgrey;
+}
+.forms {
+    padding: 20px;
+}
+.forms h3 {
+    padding-bottom: 20px;
+}
+.forms .btn1 {
+    background-color: rgb(148, 40, 143);
+    width: 130px;
+    color: white;
+    margin-top: 25px;
+    border-radius: 30px;
+}
+.forms .btn2 {
+    background-color: transparent;
+    border: none;
+    margin-top: 25px;
+    margin-left: 70px;
+}
+.forms .checkbox {
+    margin-top: 25px;
+
+}
+.overlay-car {
+    background-color: rgba(0, 0, 0, 0.733);
+}
+
+
+    
